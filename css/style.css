@@ -61,7 +61,7 @@ div {
 	border-bottom: 1px solid #DDD;
 	z-index: 9999;
 }
-div > .content {
+ .content > div {
 	height: 5.375rem;
 	padding: 1.0rem 1.0rem;
 }
