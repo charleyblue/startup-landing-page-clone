@@ -61,9 +61,9 @@ div {
 	border-bottom: 1px solid #DDD;
 	z-index: 9999;
 }
-.top-navigation > .content {
-	height: 4.375rem;
-	padding: 10px 15px;
+div > .content {
+	height: 5.375rem;
+	padding: 1.0rem 1.0rem;
 }
 .top-navigation .logo {
 	/* margin: 10px 20px; */
