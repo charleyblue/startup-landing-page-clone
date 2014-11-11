@@ -96,10 +96,9 @@ body {
 /*Begin Introduction Section*/
 .introduction {
 	background-image: url("karma-intro.jpg");
-	background-position: center bottom;
+	background-position: 0 bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45.938rem;
-	/*file:///F:/Projects/Sites/thinkful/start-up-landing-page-clone/css/images/karma-intro.jpg*/
+    height: 37.5rem;
 
 }
