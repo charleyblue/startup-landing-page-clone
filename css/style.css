@@ -93,7 +93,9 @@ body {
     cursor: pointer;
     color: #333333;
 }
+/*Begin Introduction Section*/
 .introduction {
-	background-image: url("karma-intro.png");
+	background-image: url("images/karma-intro.jpg");
+	/*file:///F:/Projects/Sites/thinkful/start-up-landing-page-clone/css/images/karma-intro.jpg*/
 
 }
