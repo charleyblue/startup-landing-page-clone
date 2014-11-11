@@ -49,36 +49,35 @@ table {
 body {
 	background-color: LightGray;
 }
-div {
-	border: 1px solid Chocolate;
-}
+
 
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
 	position:fixed;
 	width: 100%;
-	border-bottom: 1px solid #DDD;
+	/*border-bottom: 1px solid #DDD;*/
 }
  .top-navigation > .content {
 	height: 4.375rem;
-	/*margin: 0 auto;*/
+	margin: 0 auto;
+	width: 50%;
 }
 .top-navigation .logo {
 	height: 4.375rem;
-	margin-left: 15rem;
+	/*margin-left: 15rem;*/
 }
 .top-navigation .links {
 	float:right;
 	font-size: 1.04rem;
 	margin-top: 1.7rem;
-	margin-right: 25rem;
+	/*margin-right: 25rem;*/
 }
 .top-navigation .links li {
 	display: inline-block;
 	padding-right: .75rem;
 	font-family: 'Roboto', sans-serif; 
-	font-size: 16px; 
+	font-size: 1em; 
 	color: #838994; 
 	letter-spacing: 0.03em;	
 	/*margin-left: 1.56rem;*/
@@ -93,4 +92,8 @@ div {
 .top-navigation .links a:hover {
     cursor: pointer;
     color: #333333;
+}
+.introduction {
+	background-image: url("karma-intro.png");
+
 }
