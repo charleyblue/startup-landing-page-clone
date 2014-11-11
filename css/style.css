@@ -62,18 +62,20 @@ div {
 }
  .top-navigation > .content {
 	height: 4.375rem;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 }
 .top-navigation .logo {
 	height: 4.375rem;
+	margin-left: 15rem;
 }
 .top-navigation .links {
 	float:right;
 	font-size: 1.04rem;
 	margin-top: 1.7rem;
-	/*margin-right: 25rem;*/
+	margin-right: 30rem;
 }
 .top-navigation .links li {
 	display: inline-block;
+	padding-right: .5rem;
 	/*margin-left: 1.56rem;*/
 }
