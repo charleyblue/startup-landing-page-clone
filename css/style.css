@@ -103,12 +103,16 @@ body {
 
 }
 .introduction .content {
-	height: 4.375rem;
+	/*height: 4.375rem;*/
 	margin: 0 auto;	
 	padding: 0 1.04rem;
 }
-.intorduction h1 {
-	font-size: 3.45em;
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125em;
+}
+.introduction h1, .introduction h3 {
+	font-weight: 300;
 	color: white;
-
+	text-align: center;	
 }
