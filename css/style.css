@@ -164,3 +164,6 @@ div {border: 1px solid chocolate;
     box-sizing: border-box;
     height: 4em;
 }
+.cases .devices .small {
+	width: 8em;
+}
