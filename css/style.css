@@ -154,16 +154,19 @@ div {border: 1px solid chocolate;
 	font-size: 2.5rem;
 	color: #0000;
 	padding: .5em;
+	margin: 1em;
 }
-.cases .devices {
-    width: 33%;
-    display: inline-block;
-    border-left: -4px;
-    /* styles to assist with debugging */
-    border: 1px solid black;
-    box-sizing: border-box;
-    height: 4em;
-}
-.cases .devices .small {
+.cases .device img {
 	width: 8em;
+	height: 8em;
+}
+.cases .device {
+	margin-left: 15em;
+	display: inline-block;
+}
+/*.cases h3 {
+	padding: 1em;
+	text-align: center;
+	font-size: 1.75em;
+	margin: 0.5em 0.5em;*/
 }
