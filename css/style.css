@@ -49,8 +49,8 @@ table {
 body {
 	background-color: LightGray;
 }
-div {border: 1px solid chocolate;
-}
+/*div {border: 1px solid chocolate;
+}*/
 
 /* Navigation Section */
 .top-navigation {
@@ -145,6 +145,7 @@ div {border: 1px solid chocolate;
 }
 .cases {
 	background-color: white;
+	padding-bottom: 1em;
 }
 .cases .content {
 	margin:0 auto;
@@ -156,17 +157,20 @@ div {border: 1px solid chocolate;
 	padding: .5em;
 	margin: 1em;
 }
-.cases .device img {
-	width: 8em;
-	height: 8em;
-}
 .cases .device {
-	margin-left: 15em;
+	margin-left: 10em;
 	display: inline-block;
+	position: relative;
+	left: 3em;
 }
-/*.cases h3 {
-	padding: 1em;
+.cases .device img {
+	width: 6em;
+	height: 6em;
+	
+}
+.cases h3 {
+	padding-top: .5em;
 	text-align: center;
-	font-size: 1.75em;
-	margin: 0.5em 0.5em;*/
+	font-size: 1.5em;
+	margin: 0.5em 0;
 }
